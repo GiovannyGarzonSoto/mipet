@@ -1,0 +1,12 @@
+.forgot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    &__title{
+        color: var(--color-secondary);
+        text-align: center;
+    }
+}

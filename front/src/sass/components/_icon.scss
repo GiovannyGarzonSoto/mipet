@@ -1,0 +1,48 @@
+.icon{
+    fill: var(--color-dark);
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+
+    &--box{
+        margin: .5rem;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        &:hover{
+            background: var(--color-light);
+            border-radius: 1rem;
+        }
+    }
+
+    &--camera{
+        position: absolute;
+        top: calc(4.5vh - 1.6rem);
+        left: .3rem;
+    }
+
+}
+
+.minicon{
+    fill: var(--color-dark);
+    cursor: pointer;
+    height: 2.1rem;
+    width: 2.1rem;
+
+    &--box{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+
+        &:hover{
+            background: var(--color-light);
+            border-radius: 1rem;
+        }
+    }
+}
+
+
+

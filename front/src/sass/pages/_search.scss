@@ -1,0 +1,36 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+
+    &__block{
+        border-bottom: 1px solid var(--text-secondary);
+        width: 75vw;
+        height: 11vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__img{
+        height: 5rem;
+        width: 5.3rem;
+        border-radius: 50%;
+    }
+
+    &__name{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    &__on{
+        height: 1.80rem;
+        width: 1.80rem;
+        background-color: yellowgreen;
+        border: 2px solid white;
+        border-radius: 50%;
+        transform: translateX(-5rem) translateY(-1.5rem);
+    }
+}

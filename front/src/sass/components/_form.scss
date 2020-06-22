@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5rem;
+
+    &__group{
+        border: 1px solid var(--text-secondary);
+        border-radius: 10rem;
+        padding: .4rem 2rem;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    &__input{
+        font-size: inherit;
+        margin: .7rem;
+        border: none;
+        background: none;
+
+        &:focus{
+            outline: none;
+        }
+    }
+}

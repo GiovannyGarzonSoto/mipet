@@ -1,0 +1,11 @@
+.menu{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    z-index: 10;
+}

@@ -1,0 +1,68 @@
+.card{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    &__header{
+        display: flex;
+        height: 10vh;
+        width: 80vw;
+        justify-content: space-around;
+        align-items: center;
+        margin: .5rem .3rem;
+        position: relative;
+        top: 10vh;
+    }
+    
+    &__avatar{
+        height: 5rem;
+        width: 5rem;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%; 
+        box-shadow: 0 .6rem 1rem rgba(black, .3);
+    }
+
+    &__name{
+        font-size: 2.1rem;
+        align-self: flex-end;
+    }
+
+    &__hero{
+        border-radius: 3px;
+        align-self: center;
+        margin-top: 1rem;
+        width: 21rem;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__footer{
+        display: flex;
+        justify-content: center;
+        padding: 0; 
+        align-items: flex-start;
+    }
+
+    &__petprofile{
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__reactions{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+}
