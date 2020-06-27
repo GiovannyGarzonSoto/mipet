@@ -1,5 +1,4 @@
-.button{
-    
+.button{ 
     &,
     &:link,
     &:visited{
@@ -13,12 +12,10 @@
         transition: transform .2s,
                     box-shadow .2s;
     }
-
     &:active{
         transform: translateY(3px);
         box-shadow: 0 1rem 2rem rgba(black, .2);
     }
-    
     &--primary{
         background-color: var(--color-primary);
         color: var(--text-white);
@@ -26,7 +23,6 @@
         font-size: 1.5rem;
         padding: 1.1rem 7.5rem;
     }
-    
     &--secondary{
         background-color: var(--text-primary);
         color: var(--text-white);

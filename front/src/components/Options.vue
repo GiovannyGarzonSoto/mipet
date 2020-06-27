@@ -8,12 +8,12 @@
 
         <form class="options__form">
             <div class="options__form-group">
+                <input name="options" class="options__input" type="text">
                 <label for="options">
                     <svg class="options__icon minicon">
                         <use xlink:href="../assets/sprite.svg#icon-bx-search"></use>
                     </svg>
                 </label>
-                <input name="options" class="options__input" type="text">
             </div>
         </form>
 
@@ -24,7 +24,6 @@
         </router-link>
     </div>
 </template>
-
 <script>
 export default {
     name: 'Options'

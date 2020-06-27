@@ -1,8 +1,8 @@
 .icon{
     fill: var(--color-dark);
     cursor: pointer;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.75rem;
+    width: 2.75rem;
 
     &--box{
         margin: .5rem;
@@ -19,8 +19,20 @@
 
     &--camera{
         position: absolute;
-        top: calc(4.5vh - 1.6rem);
+        top: calc(3.5vh - 1.6rem);
         left: .3rem;
+    }
+
+    &--news{
+        fill: var(--text-primary);        
+    }
+
+    &--signup-pet{
+        height: 7rem;
+        width: 7rem;
+        border-radius: 50%;
+        fill: white;
+        background: var(--text-secondary);
     }
 
 }
@@ -28,8 +40,8 @@
 .minicon{
     fill: var(--color-dark);
     cursor: pointer;
-    height: 2.1rem;
-    width: 2.1rem;
+    height: 1.7rem;
+    width: 1.7rem;
 
     &--box{
         margin: 1.5rem;

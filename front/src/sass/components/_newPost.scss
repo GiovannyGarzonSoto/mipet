@@ -1,0 +1,61 @@
+.newPost{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1.2rem 1.7rem;
+
+    &__form{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        font-size: 1.8rem;
+    }
+
+    &__input{
+        border: none;
+        width: 70vw;
+        border-bottom: 1px solid var(--text-secondary);
+        &:focus{
+            outline: none;
+        }
+    }
+
+    &__box{
+        display: flex;
+        width: 80vw;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__img{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 5px;
+        margin: .6rem;
+        border: 2px dotted var(--text-secondary);
+    }
+
+    &__add{
+        text-decoration: none;
+        color: var(--text-secondary);
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 8rem;
+        height: 8rem;
+        border: 2px dotted var(--text-secondary);
+    }
+    
+    &__add-name{
+        font-size: 1.2rem;
+        margin-top: .7rem;
+    }
+
+    &__icon{
+        width: 3.5rem;
+        fill: var(--text-primary);
+    }
+
+}

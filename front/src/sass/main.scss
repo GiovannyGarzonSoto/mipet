@@ -16,6 +16,14 @@
 @import "pages/search";
 @import "pages/inbox";
 @import "pages/message";
+@import "pages/profile";
+@import "pages/settings";
+@import "pages/petSignup";
+@import "pages/editProfile";
+@import "pages/reportBugs";
+@import "pages/help";
+@import "pages/walk";
+@import "pages/walker";
 
 @import "components/button";
 @import "components/form";
@@ -24,3 +32,9 @@
 @import "components/menu";
 @import "components/card";
 @import "components/options";
+@import "components/sendMessage";
+@import "components/videos";
+@import "components/photos";
+@import "components/favorites";
+@import "components/newPost";
+@import "components/petInfo";

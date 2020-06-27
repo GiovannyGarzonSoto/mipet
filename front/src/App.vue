@@ -4,6 +4,10 @@
   </div>
 </template>
 
+<script>
+  console.log('Application on!')
+</script>
+
 <style>
   #app{
   height: 100%;

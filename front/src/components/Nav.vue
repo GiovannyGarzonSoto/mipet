@@ -5,12 +5,14 @@
           <use xlink:href="../assets/sprite.svg#icon-camera"></use>
         </svg>
       </router-link>
-      <router-link class="icon--box icon--heart " to="/news" tag="div">
+
+      <router-link class="icon--box icon--heart " to="/help" tag="div">
         <svg class="icon">
           <use xlink:href="../assets/sprite.svg#icon-heart"></use>
         </svg>
         <span class="nav__notification">7</span>
       </router-link>
+      
       <router-link class="icon--box icon--pushpin" to="/news" tag="div">
         <svg class="icon">
           <use xlink:href="../assets/sprite.svg#icon-pushpin"></use>

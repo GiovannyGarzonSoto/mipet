@@ -8,7 +8,7 @@
         <p class="paragraph inbox__message">Hey! ,I can see u tonight?</p>
     </router-link> 
     <router-link to="/message" tag="div" class="inbox__block">
-        <img class="inbox__img" src="../assets/images/person3.jpg" alt="burbuja mensaje">
+        <img class="inbox__img" src="../assets/images/person4.jpg" alt="burbuja mensaje">
         <span class="inbox__off"></span>
         <h3 class="inbox__name">Lorem Dolor</h3>
         <p class="paragraph inbox__message">Jajaja soo funnyyy</p>
@@ -33,10 +33,5 @@ export default {
         Options,
         Menu
     }
-
 }
 </script>
-
-<style>
-
-</style>

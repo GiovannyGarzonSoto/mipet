@@ -1,0 +1,52 @@
+.walk{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__map{
+        height: 50vh;
+        width: 100vw;
+    }
+
+    &__data{
+        padding: .5rem .8rem;
+        display: flex;
+        width: 80vw;
+        height: 13vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-bottom: 1px solid var(--text-secondary);
+    }
+
+    &__title{
+        font-size: 2rem;
+        margin: .5rem;
+    }
+
+    &__box{
+        display: flex;
+        width: 80vw;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__img{
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+    }
+
+    &__name{
+        width: 50vw;
+        font-size: 1.6rem;
+    }
+
+    &__stars{
+        transform: translateY(-1rem);
+    }
+}

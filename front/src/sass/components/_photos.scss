@@ -1,0 +1,42 @@
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 60vh;
+    flex-wrap: wrap;
+    &__card{
+        width: 80vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        margin: .5rem;
+    }
+    &__card-header{
+
+    }
+    &__content{
+        border-radius: 3px;
+        width: 80vw;
+    }
+    &__card-footer{
+        display: flex;
+        height: 7vh;
+    }
+    &__tags{
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__pet-img{
+        transform: translateY(-2rem);
+        width: 4.3rem;
+        height: 4.3rem;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+    &__reacts{
+        display: flex;
+        justify-content: flex-start;
+        width: 10rem;
+    }
+}

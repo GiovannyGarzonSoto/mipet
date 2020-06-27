@@ -1,0 +1,38 @@
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+    z-index: 10;
+
+    &__form{
+        display: flex;
+        width: 100vw;
+        justify-content: space-evenly;
+        margin: 0 1.5rem;
+    }
+    &__form-group{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    &__icon{
+
+    }
+    &__input{
+        transform: translateY(.5rem);
+        border: none;
+        background: none;
+        border-bottom: 1px solid var(--text-secondary);
+
+        &:focus{
+            outline: none;
+        }
+    }
+}

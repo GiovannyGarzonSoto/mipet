@@ -1,0 +1,33 @@
+.petSignup{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 1.3rem 1.6rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__add{
+        margin-top: - 1rem;
+        text-decoration: none;
+        color: var(--text-secondary);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 9rem;
+        height: 4.35rem;
+        border: 2px dotted var(--text-secondary);
+        padding: .5rem 1rem;
+    }
+    
+    &__add-name{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-left: .5rem;
+    }
+
+    &__icon{
+        width: 2.5rem;
+        fill: var(--text-primary);
+    }
+}

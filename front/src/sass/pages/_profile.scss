@@ -1,0 +1,112 @@
+.profile{
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vh;
+
+    &__header{
+        height: 19.5vh;
+        display: flex;
+        align-self: center;
+        flex-direction: row;
+    }
+    
+    &__name{
+        align-self: center;
+    }
+
+    &__box-img{
+        margin: 0 1rem;
+    }
+    
+    &__img{
+        height: 11rem;
+        width: 11rem;
+        border-radius: 50%;
+        box-shadow: 0 0 .3em .3em rgba(0, 0, 0, 0.2);
+    }
+
+    &__info{
+
+    }
+
+    &__row{
+        &--1{
+            font-size: 1.15rem;
+            display: flex;
+            width: 18rem;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        &--2{
+            font-size: 1.3rem;
+        }
+        &--3{
+            margin: .7rem 1rem;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    &__box-post{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__name-post{
+        font-size: 1.8rem;
+    }
+
+    &__edit{
+        font-size: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__pets{
+        width: 100vw;
+        height: 12vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__pet-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; 
+    }
+    
+    &__pet-img{
+        margin-top: 2rem;
+        height: 6.1rem;
+        width: 6.1rem;
+        border-radius: 50%;
+        box-shadow: 0 0 .2em .2em rgba(0, 0, 0, 0.2);
+        transition: transform 1s ease;
+        
+        &:active{
+            transform: translateY(.6rem);
+        }
+    }
+
+    &__pet-name{
+        font-size: 1.1rem;
+        margin-top: .6rem;
+    }
+
+    &__publications{
+        display: flex;
+        margin: 1.3rem 0;
+        //padding: 1.3rem 1.5rem; 
+        height: 7vh;
+        width: 100vw;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

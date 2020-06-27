@@ -1,0 +1,11 @@
+.petInfo{
+    display: flex;
+    width: 90vw;
+    height: 30vh;
+    flex-direction: column;
+    color: var(--text-primary);
+    font-size: 1.4rem;
+    margin: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
